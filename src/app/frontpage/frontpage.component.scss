@@ -1,0 +1,52 @@
+@import "src/styles";
+
+.frontpage {
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    height: 100vh;
+    width: 70vw;
+    margin: auto;
+
+    // background-color: red;
+
+    &__profile{
+        margin: 15rem 0 3rem 0;
+    }
+    
+    &__username{
+        font-size: 6rem;
+        margin: 2rem 0 1rem 0;
+    }
+
+    &__role{
+        font-size: 3rem;
+        margin-bottom: 3rem;
+    }
+
+    &__aboutme{
+        font-size: 2rem;
+    }
+
+    &__rrss{
+        flex-flow: row wrap;
+        
+        &-linkedin{
+        }
+        &-github{
+            order: 1;
+        }
+        &-email{
+            order: 2;
+        }
+
+        &>a>*  {
+            margin: 2rem 4rem;
+            width: 3rem;
+            height: auto;
+        }
+    }
+
+}

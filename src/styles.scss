@@ -1,1 +1,104 @@
-/* You can add global styles to this file, and also import other style files */
+/* Colours */
+$color-principal: #ffffff;
+$color-principal-light: #531313;
+$color-principal-dark: #ffffff;
+$color-secondary: #121212;
+$color-secondary-light: #29cfcf;
+$color-secondary-dark: #0b5d5d;
+$color-black: #000;
+$color-white: #111;
+$color-text: #111;
+$color-text-alternative: #111;
+
+$drop-shadow-btn-svg: drop-shadow(.5rem .5rem 1rem rgba(0, 0, 0, .5));
+
+*,
+*::after,
+*::before{
+  /* Resetea los márgenes */
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+html{
+  font-size: 62.5%; /* default font size is 16, so with this we have 10px of default*/
+}
+
+/* Todas las cosas se heredarán */
+body{
+    /* Cambia los bordes para quitar espacios raros */
+    box-sizing: border-box;
+    font-weight: 400;
+    line-height: 1.7; /* cambia el tamaño de la línea */
+    
+    font-family: "Lato", sans-serif;
+    box-sizing: border-box;
+    margin: 3rem;
+    
+    /* font-size: 16px; */
+}
+
+.btn{
+    position: relative;
+
+    cursor: pointer;
+
+    overflow: hidden;
+
+    font-size: 1.5rem;
+    font-weight: 300;
+    text-transform: uppercase;
+
+    border: none;
+
+    color: white;
+    transition: all .2s;
+
+
+    &:hover {
+        top: -0.1rem;
+        box-shadow: 0 1rem 4rem $color-secondary-light;
+    }
+
+    &-svg:hover {
+        top: -0.1rem;
+        filter: $drop-shadow-btn-svg;
+    }
+
+    &__visible {
+        display: inline-block;
+        padding: 2rem 7.5rem;
+
+        height: 100%;
+        width: 100%;
+
+        transition: all .2s;
+    }
+
+    &__invisible {
+        display: inline-block;
+        position: absolute;
+        left: 0;
+        top: -100%;
+        padding: 2rem 0;
+
+        height: 100%;
+        width: 100%;
+
+        transition: all .2s;
+    }
+
+    &:hover &__visible {
+        transform: translateY(100%);
+    }
+
+    &:hover &__invisible {
+        top: 0;
+    }
+
+    &:focus {
+        outline: none;
+        animation: pulsate 1s infinite;
+    }
+}
