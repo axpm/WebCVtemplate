@@ -6,28 +6,40 @@
     flex-direction: column;
     align-items: center;
 
-    height: 100vh;
-    width: 70vw;
+    height: 100vh; // Revisar en función de cómo unamos las secciones y sobre todo en dispositivos móviles
+    // width: 70vw;
+    // width: 100vw;
+    width: 100%;
     margin: auto;
 
-    // background-color: red;
+    background-color: $color-principal;
+    color: $color-text-alternative;
 
     &__profile{
         margin: 15rem 0 3rem 0;
+        height: 10rem;
+        width: auto;
+        
+        filter: $filter-color-svg;
     }
     
     &__username{
         font-size: 6rem;
         margin: 2rem 0 1rem 0;
+        text-align: center;
     }
-
+    
     &__role{
         font-size: 3rem;
         margin-bottom: 3rem;
+        text-align: center;
     }
 
     &__aboutme{
+        width: 70vw;
         font-size: 2rem;
+        
+        text-align:justify; // opcional 
     }
 
     &__rrss{
@@ -46,7 +58,10 @@
             margin: 2rem 4rem;
             width: 3rem;
             height: auto;
+
+            filter: $filter-color-svg;
         }
     }
 
 }
+
