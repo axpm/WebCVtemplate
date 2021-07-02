@@ -37,26 +37,34 @@ body{
     font-family: "Lato", sans-serif;
     box-sizing: border-box;
     margin: 2.5rem;
+    margin-bottom: 0;
     
     /* font-size: 16px; */
 }
 
 .btn{
     position: relative;
-
+    
     cursor: pointer;
-
+    
     overflow: hidden;
-
+    
     font-size: 1.5rem;
     font-weight: 300;
+    text-decoration: none;
     text-transform: uppercase;
 
     border: none;
+    padding: 0.5rem;
 
     color: white;
     transition: all .2s;
 
+    &-primary{
+        background-color: $color-principal;
+        color: $color-text-alternative;
+        border-radius: 10rem;
+    }
 
     &:hover {
         top: -0.1rem;
@@ -105,4 +113,26 @@ body{
         outline: none;
         animation: pulsate 1s infinite;
     }
+}
+
+.h1-font{
+    font-size: 6rem;
+}
+.h2-font{
+    font-size: 3rem;
+}
+.h3-font{
+    font-size: 2.5rem;
+}
+.p-font{
+    font-size: 2rem;
+}
+.u-margin-bottom-large{
+    margin-bottom: 3rem;
+}
+.u-margin-bottom-medium{
+    margin-bottom: 1rem;
+}
+.u-margin-bottom-small{
+    margin-bottom: 0.1rem;
 }

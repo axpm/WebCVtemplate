@@ -1,0 +1,67 @@
+.experience-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    // height: 100vh;
+    height: 100%;
+    width: 100%;
+    margin: auto;
+
+    background: rgb(126, 125, 125);
+
+    &__jobs{
+        width: 80vw;
+        background-color: red;
+        display: flex;
+        flex-direction: column;
+
+        &-content{
+            background-color: salmon;
+            display: flex;
+            flex-flow: row wrap;
+            align-items: center;
+            margin: auto;
+            
+            &__box{
+                padding: 1rem;
+                margin: 1.5rem;
+                
+                min-width: 30rem;
+                max-width: 50rem;
+                
+                border-radius: 1rem;
+
+                background-color: sandybrown;
+            }
+        }
+    }
+
+    &__studies{
+        width: 80vw;
+        // width: 100%;
+        background-color: red;
+        display: flex;
+        flex-direction: column;
+
+        &-content{
+            background-color: salmon;
+            display: flex;
+            flex-flow: row wrap;
+            align-items: center;
+            margin: auto;
+            
+            &__box{
+                padding: 1rem;
+                margin: 1.5rem;
+                
+                min-width: 30rem;
+                max-width: 50rem;
+                
+                border-radius: 1rem;
+
+                background-color: sandybrown;
+            }
+        }
+    }
+}
