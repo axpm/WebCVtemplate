@@ -5,12 +5,14 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { FrontpageComponent } from './frontpage/frontpage.component';
 import { ExperienceSectionComponent } from './experience-section/experience-section.component';
+import { InfoSectionComponent } from './info-section/info-section.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     FrontpageComponent,
-    ExperienceSectionComponent
+    ExperienceSectionComponent,
+    InfoSectionComponent
   ],
   imports: [
     BrowserModule,

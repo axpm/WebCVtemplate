@@ -1,0 +1,37 @@
+.info-section {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-evenly;
+
+    min-height: 100vh;
+    max-height: 100%;
+
+    width: 100%;
+    margin: auto;
+
+    background-color: olive;
+
+    &__card{
+        background: greenyellow;
+        padding: 3rem;
+        margin: 1.5rem;
+        
+        min-width: 50rem;
+        max-width: 60rem;
+        
+        border-radius: 1rem;
+        
+        &-list{
+            list-style: none;
+            padding: 3rem;
+            background: blue;
+            border-radius: 1rem;
+            
+            &-element{
+                margin: 1rem;
+                color: white;
+            }
+        }
+    }
+}
