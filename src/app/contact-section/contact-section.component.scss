@@ -1,0 +1,38 @@
+@import "src/styles";
+
+
+.contact-section {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    background-color: $color-principal-light;
+    padding: 10rem 17rem;
+
+    &__contact-form {
+        background-color: $color-principal;
+        width: 70%;
+        padding: 3rem;
+        &-title {
+            font-size: 3rem;
+
+        }
+
+        &__inputs {
+            display: flex;
+            flex-direction: column;
+            width: 50%;
+
+            & > * {
+                margin: 1rem;
+            }
+
+            & > input {
+                width: 60%;
+            }
+
+            &-submit {
+                width: 6rem !important;
+            }
+        }
+    }
+}

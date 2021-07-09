@@ -1,0 +1,14 @@
+@import "src/styles";
+
+.proyect-section {
+    display: flex;
+    justify-content: space-around;
+    min-height: 100vh;
+    background-color: $color-secondary-dark;
+    padding: 10rem 3rem;
+
+    & > * {
+        margin: 3rem;
+        flex-grow: 1;
+    }
+}

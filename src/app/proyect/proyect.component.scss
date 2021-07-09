@@ -1,0 +1,29 @@
+@import "src/styles";
+
+.section {
+    padding: 2rem;
+    background-color: $color-secondary-light;
+    
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+
+    &__title {
+        font-size: 3rem;
+        font-weight: 700;
+
+        padding: 2rem;
+    }
+
+    &__description {
+        padding: 1rem;
+        font-size: 1.2rem;
+        text-align: justify;
+    }
+
+    &__image {
+        margin: 2rem auto 1rem auto;
+        height: 15rem;
+    }
+}
