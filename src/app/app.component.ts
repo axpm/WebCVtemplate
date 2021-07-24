@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import language_es from "../assets/languages/es-ES.json"
 
 @Component({
   selector: 'app-root',

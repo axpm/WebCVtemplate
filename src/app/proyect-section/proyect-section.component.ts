@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import language_es from "../../assets/languages/es-ES.json"
 
 @Component({
   selector: 'app-proyect-section',
@@ -7,9 +8,7 @@ import { Component, OnInit } from '@angular/core';
 })
 export class ProyectSectionComponent implements OnInit {
 
-
-  titles:Array<String> = ["Título 1", "Título 2", "Título 3"]
-
+  text = language_es.proyect_section
 
   constructor() { }
 

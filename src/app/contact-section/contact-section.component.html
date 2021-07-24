@@ -1,19 +1,17 @@
 <div class="contact-section">
     <div class="contact-section__contact-form">
         <div class="contact-section__contact-form-title">
-            Contacto
+            {{text.title}}
         </div>
         <div class="contact-section__contact-form__inputs">
-            <input type="text" class="contact-section__contact-form__inputs-name" placeholder="Tu nombre">
+            <input type="text" class="contact-section__contact-form__inputs-name" placeholder={{text.name_placeholder}}>
 
-            <input type="email" class="contact-section__contact-form__inputs-email" placeholder="Tu correo">
+            <input type="email" class="contact-section__contact-form__inputs-email" placeholder={{text.mail_placeholder}}>
 
-            <textarea name="contacto" cols="30" rows="10">Escribe aquí tu texto</textarea>
+            <textarea name="contacto" cols="30" rows="10">{{text.text_placeholder}}</textarea>
 
-            <input type="submit" value="Enviar" class="contact-section__contact-form__inputs-submit">
+            <input type="submit" value={{text.send_button}} class="contact-section__contact-form__inputs-submit">
 
         </div>
     </div>
-
-
 </div>

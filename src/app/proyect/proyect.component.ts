@@ -8,6 +8,9 @@ import { Component, OnInit, Input } from '@angular/core';
 export class ProyectComponent implements OnInit {
 
   @Input() title?: String;
+  @Input() content?: String;
+  @Input() img?: String;
+  @Input() img_alt?: String;
 
   constructor() { }
 

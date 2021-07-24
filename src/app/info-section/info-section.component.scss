@@ -16,21 +16,22 @@
         background: greenyellow;
         padding: 3rem;
         margin: 1.5rem;
-        
+
         min-width: 50rem;
         max-width: 60rem;
-        
+
         border-radius: 1rem;
-        
+
         &-list{
             list-style: none;
             padding: 3rem;
             background: blue;
             border-radius: 1rem;
-            
+
             &-element{
                 margin: 1rem;
                 color: white;
+                display: flex;
             }
         }
     }

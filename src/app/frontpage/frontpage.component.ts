@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import language_es from "../../assets/languages/es-ES.json"
 
 @Component({
   selector: 'app-frontpage',
@@ -7,9 +8,15 @@ import { Component, OnInit } from '@angular/core';
 })
 export class FrontpageComponent implements OnInit {
 
-  constructor() { }
+  text = language_es.frontpage;
+
+  constructor() {
+    console.log(this.text.name);
+
+  }
 
   ngOnInit(): void {
+
   }
 
 }

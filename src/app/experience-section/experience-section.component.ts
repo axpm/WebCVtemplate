@@ -1,4 +1,6 @@
 import { Component, OnInit } from '@angular/core';
+import language_es from "../../assets/languages/es-ES.json";
+
 
 @Component({
   selector: 'app-experience-section',
@@ -6,6 +8,8 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./experience-section.component.scss']
 })
 export class ExperienceSectionComponent implements OnInit {
+
+  text = language_es.experience_section;
 
   constructor() { }
 

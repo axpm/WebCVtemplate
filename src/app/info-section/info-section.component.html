@@ -1,12 +1,11 @@
 <div class="info-section">
     <div class="info-section__card info-section__card-languages">
-        <h1 class="info-section__card-text h1-font">Idiomas</h1>
+        <h1 class="info-section__card-text h1-font">{{text.title_languages}}</h1>
         <ul class="info-section__card-list">
-            <li class="info-section__card-list-element p-font">
-                Inglés: &#9733; &#9733; &#9733; &#9733; 
-            </li>
-            <li class="info-section__card-list-element p-font">
-                Español: &#9733; &#9733; &#9733; &#9733; &#9733;
+
+            <li *ngFor="let language of text.languages" class="info-section__card-list-element p-font">
+                {{language.name}}:&nbsp;
+                <p *ngFor="let i of [].constructor(language.stars)">&#9733;</p>
             </li>
 
         </ul>
@@ -15,37 +14,11 @@
     <div class="info-section__card info-section__card-tools">
         <h1 class="info-section__card-text h1-font">Herramientas</h1>
         <ul class="info-section__card-list">
-            <li class="info-section__card-list-element p-font">
-                Herramienta1: &#9733; &#9733; &#9733;
+            <li *ngFor="let tool of text.tools"class="info-section__card-list-element p-font">
+                {{tool.name}}:&nbsp;
+                <p *ngFor="let i of [].constructor(tool.stars)">&#9733;</p>
             </li>
-            <li class="info-section__card-list-element p-font">
-                Herramienta1: &#9733; &#9733; &#9733;
-            </li>
-            <li class="info-section__card-list-element p-font">
-                Herramienta1: &#9733; &#9733; &#9733;
-            </li>
-            <li class="info-section__card-list-element p-font">
-                Herramienta1: &#9733; &#9733; &#9733;
-            </li>
-            <li class="info-section__card-list-element p-font">
-                Herramienta1: &#9733; &#9733; &#9733;
-            </li>
-            <li class="info-section__card-list-element p-font">
-                Herramienta1: &#9733; &#9733; &#9733;
-            </li>
-            <li class="info-section__card-list-element p-font">
-                Herramienta1: &#9733; &#9733; &#9733;
-            </li>
-            <li class="info-section__card-list-element p-font">
-                Herramienta1: &#9733; &#9733; &#9733;
-            </li>
-            <li class="info-section__card-list-element p-font">
-                Herramienta1: &#9733; &#9733; &#9733;
-            </li>
-            <li class="info-section__card-list-element p-font">
-                Herramienta1: &#9733; &#9733; &#9733;
-            </li>
-    
+
         </ul>
     </div>
 </div>

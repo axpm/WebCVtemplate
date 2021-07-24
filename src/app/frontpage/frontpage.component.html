@@ -1,29 +1,28 @@
 <div class="frontpage">
 
-    <img src="assets/icons/user.svg" alt="profile image" class="frontpage__profile">
+    <img src="assets/icons/user.svg" alt={{text.profile_alt}} class="frontpage__profile">
 
-    <h1 class="frontpage__username h1-font">Nombre Completo</h1>
-    <h2 class="frontpage__role h2-font">Ingeniería Informática</h2>
-  
-  
+    <h1 class="frontpage__username h1-font">{{text.name}}</h1>
+    <h2 class="frontpage__role h2-font">{{text.role}}</h2>
+
+
     <p class="frontpage__aboutme p-font">
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores, cum nobis quibusdam soluta facere omnis, nulla ea voluptatem hic quam sint minus in maiores, veniam iure. Sapiente recusandae error quo
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo temporibus quos optio earum? Maiores aperiam nam ratione labore numquam assumenda unde, amet obcaecati temporibus, dolorem architecto debitis natus eligendi quibusdam?
+        {{text.about_me}}
     </p>
-  
+
     <div class="frontpage__rrss">
-        <a target="_blank" href="https://www.linkedin.com/" class="frontpage__rrss-linkedin btn-svg">
-            <img src="assets/icons/linkedin.svg" alt="linkedin" class="">
+        <a target="_blank" href={{text.linkedin}} class="frontpage__rrss-linkedin btn-svg">
+            <img src="assets/icons/linkedin.svg" alt={{text.linkedin_alt}} class="">
         </a>
-      
-        <a target="_blank" href="https://www.github.com/" class="frontpage__rrss-github btn-svg"> 
-            <img src="assets/icons/github.svg" alt="github" class=""> 
+
+        <a target="_blank" href={{text.github}} class="frontpage__rrss-github btn-svg">
+            <img src="assets/icons/github.svg" alt={{text.github_alt}} class="">
         </a>
-        
-        <a target="_blank" href="mailto:correo@correo.com" class="frontpage__rrss-email btn-svg">
-            <img src="assets/icons/email.svg" alt="email" class="">
+
+        <a target="_blank" href={{text.email}} class="frontpage__rrss-email btn-svg">
+            <img src="assets/icons/email.svg" alt={{text.email_alt}} class="">
         </a>
-    
-    </div>    
-  
+
+    </div>
+
   </div>
