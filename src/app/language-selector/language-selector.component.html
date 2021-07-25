@@ -1,0 +1,4 @@
+<div class="language-selector">
+  <img *ngIf="current_language == 'en-US'" (click)="changeLanguage('es-ES')" src="../../assets/icons/spain.svg" alt="Español" class="language-selector__flag">
+  <img *ngIf="current_language == 'es-ES'" (click)="changeLanguage('en-US')" src="../../assets/icons/united-states-of-america.svg" alt="English" class="language-selector__flag">
+</div>

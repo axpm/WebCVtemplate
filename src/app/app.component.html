@@ -1,9 +1,10 @@
 <div class="main_page">
-  <app-frontpage></app-frontpage>
-  <app-experience-section></app-experience-section>
-  <app-info-section></app-info-section>
-  <app-proyect-section></app-proyect-section>
-  <app-contact-section></app-contact-section>
+  <app-language-selector [current_language]="language" (change_language)="selectLanguage($event)"></app-language-selector>
+  <app-frontpage [language]="language"></app-frontpage>
+  <app-experience-section [language]="language"></app-experience-section>
+  <app-info-section [language]="language"></app-info-section>
+  <app-proyect-section [language]="language"></app-proyect-section>
+  <app-contact-section [language]="language"></app-contact-section>
 </div>
 
 <router-outlet></router-outlet>

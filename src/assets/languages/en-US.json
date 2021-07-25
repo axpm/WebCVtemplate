@@ -1,0 +1,115 @@
+{
+   "frontpage": {
+     "profile_alt": "profile",
+     "name": "Full Name",
+     "role": "Ingeniería Informática",
+     "about_me": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores, cum nobis quibusdam soluta facere omnis, nulla ea voluptatem hic quam sint minus in maiores, veniam iure. Sapiente recusandae error quo\nLorem ipsum dolor sit amet consectetur adipisicing elit. Quo temporibus quos optio earum? Maiores aperiam nam ratione labore numquam assumenda unde, amet obcaecati temporibus, dolorem architecto debitis natus eligendi quibusdam?",
+     "linkedin": "https://www.linkedin.com/",
+     "linkedin_alt": "linkedin",
+     "github": "https://www.github.com/",
+     "github_alt": "github",
+     "email": "mailto:correo@correo.com",
+     "email_alt": "email"
+   },
+
+   "experience_section": {
+     "title_experience": "Experience",
+     "experiences": [
+       {
+         "title": "Find your way",
+         "content": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam, ipsum sapiente aspernatur.",
+         "more_info": "Más información"
+       },
+       {
+         "title": "Find your way2",
+         "content": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam, ipsum sapiente aspernatur.",
+         "more_info": "Más información"
+       },
+       {
+         "title": "Find your way3",
+         "content": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam, ipsum sapiente aspernatur.",
+         "more_info": "Más información"
+       }
+     ],
+     "title_studies": "Studies",
+     "studies": [
+       {
+         "title": "Find your way",
+         "content": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam, ipsum sapiente aspernatur.",
+         "more_info": "Más información"
+       },
+       {
+         "title": "Find your way",
+         "content": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam, ipsum sapiente aspernatur.",
+         "more_info": "Más información"
+       }
+     ]
+   },
+   "info_section":  {
+     "title_languages": "Languages",
+     "languages": [
+       {
+         "name": "Inglés",
+         "stars": 4
+       },
+       {
+         "name": "Español",
+         "stars": 5
+       }
+     ],
+     "title_tools": "Tools",
+     "tools": [
+       {
+         "name": "Herramienta1",
+         "stars": 4
+       },
+       {
+         "name": "Herramienta2",
+         "stars": 1
+       },
+       {
+         "name": "Herramienta3",
+         "stars": 5
+       },
+       {
+         "name": "Herramienta4",
+         "stars": 2
+       }
+     ]
+   },
+   "proyect_section": {
+     "proyects": [
+       {
+         "title": "Title 1",
+         "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. In vehicula bibendum lacus ut dignissim. Proin metus lacus, blandit vehicula turpis sagittis, blandit pellentesque augue. Aenean eget aliquet urna. Phasellus quis mauris vitae dolor finibus feugiat. Donec eleifend, enim vitae suscipit posuere, diam quam iaculis sapien, vel molestie justo elit at leo. Etiam pulvinar, libero ac dictum tempus, magna eros elementum libero, a aliquet lorem magna eu sem. In in egestas diam. Nunc rhoncus tristique turpis, vel mattis augue suscipit sit amet. Nullam scelerisque mi suscipit egestas malesuada. Donec suscipit mollis lectus, sed lacinia tortor porta sed. Etiam et velit nulla. Proin pellentesque elit accumsan, aliquet nunc vel, consectetur nulla. Maecenas vulputate sollicitudin elit, non pretium elit aliquet vitae. Suspendisse et interdum risus, nec laoreet est.",
+         "img_path": "assets/icons/image.svg",
+         "img_alt": "Imagen del proyecto"
+       },
+       {
+         "title": "Title 2",
+         "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. In vehicula bibendum lacus ut dignissim. Proin metus lacus, blandit vehicula turpis sagittis, blandit pellentesque augue. Aenean eget aliquet urna. Phasellus quis mauris vitae dolor finibus feugiat. Donec eleifend, enim vitae suscipit posuere, diam quam iaculis sapien, vel molestie justo elit at leo. Etiam pulvinar, libero ac dictum tempus, magna eros elementum libero, a aliquet lorem magna eu sem. In in egestas diam. Nunc rhoncus tristique turpis, vel mattis augue suscipit sit amet. Nullam scelerisque mi suscipit egestas malesuada. Donec suscipit mollis lectus, sed lacinia tortor porta sed. Etiam et velit nulla. Proin pellentesque elit accumsan, aliquet nunc vel, consectetur nulla. Maecenas vulputate sollicitudin elit, non pretium elit aliquet vitae. Suspendisse et interdum risus, nec laoreet est.",
+         "img_path": "assets/icons/image.svg",
+         "img_alt": "Imagen del proyecto"
+       },
+       {
+         "title": "Title 3",
+         "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. In vehicula bibendum lacus ut dignissim. Proin metus lacus, blandit vehicula turpis sagittis, blandit pellentesque augue. Aenean eget aliquet urna. Phasellus quis mauris vitae dolor finibus feugiat. Donec eleifend, enim vitae suscipit posuere, diam quam iaculis sapien, vel molestie justo elit at leo. Etiam pulvinar, libero ac dictum tempus, magna eros elementum libero, a aliquet lorem magna eu sem. In in egestas diam. Nunc rhoncus tristique turpis, vel mattis augue suscipit sit amet. Nullam scelerisque mi suscipit egestas malesuada. Donec suscipit mollis lectus, sed lacinia tortor porta sed. Etiam et velit nulla. Proin pellentesque elit accumsan, aliquet nunc vel, consectetur nulla. Maecenas vulputate sollicitudin elit, non pretium elit aliquet vitae. Suspendisse et interdum risus, nec laoreet est.",
+         "img_path": "assets/icons/image.svg",
+         "img_alt": "Imagen del proyecto"
+       },
+       {
+         "title": "Title 4",
+         "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. In vehicula bibendum lacus ut dignissim. Proin metus lacus, blandit vehicula turpis sagittis, blandit pellentesque augue. Aenean eget aliquet urna. Phasellus quis mauris vitae dolor finibus feugiat. Donec eleifend, enim vitae suscipit posuere, diam quam iaculis sapien, vel molestie justo elit at leo. Etiam pulvinar, libero ac dictum tempus, magna eros elementum libero, a aliquet lorem magna eu sem. In in egestas diam. Nunc rhoncus tristique turpis, vel mattis augue suscipit sit amet. Nullam scelerisque mi suscipit egestas malesuada. Donec suscipit mollis lectus, sed lacinia tortor porta sed. Etiam et velit nulla. Proin pellentesque elit accumsan, aliquet nunc vel, consectetur nulla. Maecenas vulputate sollicitudin elit, non pretium elit aliquet vitae. Suspendisse et interdum risus, nec laoreet est.",
+         "img_path": "assets/icons/image.svg",
+         "img_alt": "Imagen del proyecto"
+       }
+     ]
+   },
+   "contact_section": {
+     "title": "Contact",
+     "name_placeholder": "Tu nombre",
+     "mail_placeholder": "Tu correo",
+     "text_placeholder": "Escribe aquí tu texto",
+     "send_button": "Enviar"
+   }
+}
