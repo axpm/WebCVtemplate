@@ -1,4 +1,5 @@
 <div class="main_page">
+  <app-menu></app-menu>
   <app-language-selector [current_language]="language" (change_language)="selectLanguage($event)"></app-language-selector>
   <app-frontpage [language]="language"></app-frontpage>
   <app-experience-section [language]="language"></app-experience-section>

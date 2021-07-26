@@ -1,4 +1,12 @@
 {
+   "menu": {
+     "frontpage": "Página Principal",
+     "experience": "Experiencia",
+     "studies": "Estudios",
+     "languages_tools": "Idiomas y Herramientas",
+     "proyects": "Proyectos",
+     "contact": "Contacto"
+   },
    "frontpage": {
      "profile_alt": "profile",
      "name": "Nombre Completo",
