@@ -3,7 +3,21 @@
 .menu {
   position: sticky;
   top: 2.5rem;
-  z-index: 2;
+  z-index: 1;
+
+
+  &-icon {
+    width: 2.5rem;
+    height: auto;
+
+    cursor: pointer;
+
+    position: absolute;
+    top: 2.5rem;
+    left: 2.5rem;
+
+    z-index: 2;
+  }
 
   &__list {
     position: absolute;
@@ -14,14 +28,14 @@
     width: 20vw;
     height: 100vh;
 
-    padding: 2.5rem;
+    padding: 7rem 2.5rem;
     background-color: red;
 
     &-element {
       text-align: center;
       cursor: pointer;
 
-      padding: 2rem;
+      margin: 3rem;
 
       & > a {
         text-decoration: none;

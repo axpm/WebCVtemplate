@@ -13,6 +13,8 @@ export class MenuComponent implements OnInit, OnChanges {
 
   text = language_es.menu;
 
+  display_menu = false;
+
   constructor() { }
 
   ngOnInit(): void {
@@ -29,6 +31,10 @@ export class MenuComponent implements OnInit, OnChanges {
     } else if (this.language == "en-US") {
       this.text = language_en.menu;
     }
+  }
+
+  changeVisibility() {
+    this.display_menu = !this.display_menu;
   }
 
 }
