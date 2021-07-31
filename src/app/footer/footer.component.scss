@@ -1,0 +1,43 @@
+
+@import "src/styles";
+
+.footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-self: center;
+
+    height: 100%;
+    width: 100%;
+    padding: 2rem 0 2rem 0;
+
+    background-color: hotpink;
+
+    &__rrss{
+        flex-flow: row wrap;
+        
+        &-linkedin{
+        }
+        &-github{
+            order: 1;
+        }
+        &-email{
+            order: 2;
+        }
+
+        &>a>*  {
+            margin: 2rem 4rem;
+            width: 3rem;
+            height: auto;
+
+            filter: $filter-color-svg;
+        }
+    }
+
+    &__creators{
+        flex-flow: row wrap;
+        justify-self: center;
+
+        text-transform: uppercase;
+    }
+}
