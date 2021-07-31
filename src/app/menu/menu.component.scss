@@ -1,31 +1,113 @@
 @import "src/styles";
 
+@keyframes moveInLeft {
+  0% {
+    opacity: 0;
+    transform: translateX(-10rem);
+
+  }
+
+  100%{
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+@keyframes moveInRight {
+  0% {
+    opacity: 1;
+    transform: translateX(0);
+  }
+
+  100%{
+    opacity: 0;
+    transform: translateX(-15rem);
+  }
+}
+
+
 .menu {
-  position: sticky;
+  position: fixed;
   top: 2.5rem;
   z-index: 1;
 
+  &-checkbox {
+    display: none;
+  }
 
-  &-icon {
-    width: 2.5rem;
-    height: auto;
-
+  &-label {
+    text-align: center;
     cursor: pointer;
 
     position: absolute;
-    top: 2.5rem;
-    left: 2.5rem;
+
+    height: 7rem;
+    width: 7rem;
+    border-radius: 50%;
+
+    transition: all .3s;
 
     z-index: 2;
   }
 
-  &__list {
-    position: absolute;
+  &-icon {
+    position: relative;
+    margin-top: 3.5rem;
+
+
+    z-index: 3;
+
+
+    &,
+    &::before,
+    &::after {
+      transition: all .4s;
+      width: 3rem;
+      height: .2rem;
+      background-color: $color-black;
+      display: inline-block;
+    }
+
+    &::before,
+    &::after {
+      content: "";
+      position: absolute;
+      left: 0;
+    }
+
+    &::before {
+      top: -.8rem;
+    }
+    &::after {
+      top: .8rem;
+    }
+  }
+  &__hide-list {
+    animation-name: moveInRight;
+    animation-duration: .25s;
+    animation-timing-function: ease-out;
+
     top: -2.5rem;
     left: -2.5rem;
+    opacity: 0;
+  }
+
+  &__show-list {
+    animation-name: moveInLeft;
+    animation-duration: .25s;
+    animation-timing-function: ease-out;
+
+    top: -2.5rem;
+    left: -2.5rem;
+  }
+
+  &__list {
+
+    position: absolute;
+
     list-style-type: none;
 
-    width: 20vw;
+    width: 40rem;
     height: 100vh;
 
     padding: 7rem 2.5rem;
@@ -42,6 +124,17 @@
         color: $color-text;
       }
     }
+  }
 
+  &-checkbox:checked + &-label &-icon {
+    background-color: transparent;
+  }
+  &-checkbox:checked + &-label &-icon::before {
+    top: 0;
+    transform: rotate(225deg);
+  }
+  &-checkbox:checked + &-label &-icon::after {
+    top: 0;
+    transform: rotate(-225deg);
   }
 }
