@@ -119,5 +119,20 @@
      "mail_placeholder": "Tu correo",
      "text_placeholder": "Escribe aquí tu texto",
      "send_button": "Enviar"
-   }
+   },
+   "footer": {
+    "linkedin": "https://www.linkedin.com/",
+    "linkedin_alt": "linkedin",
+    "github": "https://www.github.com/",
+    "github_alt": "github",
+    "email": "mailto:correo@correo.com",
+    "email_alt": "email",
+    "creator": "Creado por:", 
+    "creator_Alba": "akua21",
+    "creator_Alba_Link": "https://www.github.com/akua21",
+    "creator_Ale": "Pheithar",
+    "creator_Ale_Link": "https://www.github.com/Pheithar",
+    "creator_Alex": "axpm",
+    "creator_Alex_Link": "https://www.github.com/axpm"
+  }
 }

@@ -11,6 +11,7 @@ import { ProyectComponent } from './proyect/proyect.component';
 import { ContactSectionComponent } from './contact-section/contact-section.component';
 import { LanguageSelectorComponent } from './language-selector/language-selector.component';
 import { MenuComponent } from './menu/menu.component';
+import { FooterComponent } from './footer/footer.component';
 
 @NgModule({
   declarations: [
@@ -22,7 +23,8 @@ import { MenuComponent } from './menu/menu.component';
     ProyectComponent,
     ContactSectionComponent,
     LanguageSelectorComponent,
-    MenuComponent
+    MenuComponent,
+    FooterComponent
   ],
   imports: [
     BrowserModule,
