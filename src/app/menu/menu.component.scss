@@ -82,6 +82,13 @@
       top: .8rem;
     }
   }
+
+  &__no-list {
+    top: -2.5rem;
+    left: -2.5rem;
+    display: none;
+  }
+
   &__hide-list {
     animation-name: moveInRight;
     animation-duration: .25s;
