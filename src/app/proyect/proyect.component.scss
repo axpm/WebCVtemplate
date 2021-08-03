@@ -1,29 +1,47 @@
 @import "src/styles";
 
 .section {
-    padding: 2rem;
+    padding: 21rem 3rem 3rem 3rem;
     background-color: $color-secondary-light;
-    
+
+    position: relative;
     display: flex;
     flex-direction: column;
     text-align: center;
     justify-content: center;
 
+    border-radius: .4rem;
+    overflow: hidden;
+    box-shadow: 0 3rem 6rem rgba(255, 255, 255, .1);
+    cursor: pointer;
+    transition: .2s;
+
+    &:hover {
+      transform: translateY(-.5rem);
+      box-shadow: 0 4rem 8rem rgba(255, 255, 255, .2);
+    }
+
     &__title {
         font-size: 3rem;
-        font-weight: 700;
-
-        padding: 2rem;
+        font-weight: 500;
+        margin-bottom: 1.5rem;
     }
 
     &__description {
-        padding: 1rem;
-        font-size: 1.2rem;
         text-align: justify;
+        font-size: 1.5rem;
+        letter-spacing: .1rem;
+        line-height: 1.7;
+        margin-bottom: 2.5rem;
     }
 
     &__image {
-        margin: 2rem auto 1rem auto;
-        height: 15rem;
+        position: absolute;
+        top: 0;
+        left: 0;
+        display: block;
+        width: 100%;
+        height: 18rem;
+        object-fit: cover;
     }
 }

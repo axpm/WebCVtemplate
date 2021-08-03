@@ -89,26 +89,26 @@
      "proyects": [
        {
          "title": "Titulo 1",
-         "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. In vehicula bibendum lacus ut dignissim. Proin metus lacus, blandit vehicula turpis sagittis, blandit pellentesque augue. Aenean eget aliquet urna. Phasellus quis mauris vitae dolor finibus feugiat. Donec eleifend, enim vitae suscipit posuere, diam quam iaculis sapien, vel molestie justo elit at leo. Etiam pulvinar, libero ac dictum tempus, magna eros elementum libero, a aliquet lorem magna eu sem. In in egestas diam. Nunc rhoncus tristique turpis, vel mattis augue suscipit sit amet. Nullam scelerisque mi suscipit egestas malesuada. Donec suscipit mollis lectus, sed lacinia tortor porta sed. Etiam et velit nulla. Proin pellentesque elit accumsan, aliquet nunc vel, consectetur nulla. Maecenas vulputate sollicitudin elit, non pretium elit aliquet vitae. Suspendisse et interdum risus, nec laoreet est.",
-         "img_path": "assets/icons/image.svg",
+         "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. In vehicula bibendum lacus ut dignissim. Proin metus lacus, blandit vehicula turpis sagittis, blandit pellentesque augue. Aenean eget aliquet urna. Phasellus quis mauris vitae dolor finibus feugiat. Donec eleifend, enim vitae suscipit posuere, diam quam iaculis sapien, vel molestie justo elit at leo. Etiam pulvinar, libero ac dictum tempus, magna eros elementum libero, a aliquet lorem magna eu sem.",
+         "img_path": "assets/images/example.webp",
          "img_alt": "Imagen del proyecto"
        },
        {
          "title": "Titulo 2",
-         "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. In vehicula bibendum lacus ut dignissim. Proin metus lacus, blandit vehicula turpis sagittis, blandit pellentesque augue. Aenean eget aliquet urna. Phasellus quis mauris vitae dolor finibus feugiat. Donec eleifend, enim vitae suscipit posuere, diam quam iaculis sapien, vel molestie justo elit at leo. Etiam pulvinar, libero ac dictum tempus, magna eros elementum libero, a aliquet lorem magna eu sem. In in egestas diam. Nunc rhoncus tristique turpis, vel mattis augue suscipit sit amet. Nullam scelerisque mi suscipit egestas malesuada. Donec suscipit mollis lectus, sed lacinia tortor porta sed. Etiam et velit nulla. Proin pellentesque elit accumsan, aliquet nunc vel, consectetur nulla. Maecenas vulputate sollicitudin elit, non pretium elit aliquet vitae. Suspendisse et interdum risus, nec laoreet est.",
-         "img_path": "assets/icons/image.svg",
+         "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. In vehicula bibendum lacus ut dignissim. Proin metus lacus, blandit vehicula turpis sagittis, blandit pellentesque augue. Aenean eget aliquet urna. Phasellus quis mauris vitae dolor finibus feugiat. Donec eleifend, enim vitae suscipit posuere, diam quam iaculis sapien, vel molestie justo elit at leo. Etiam pulvinar, libero ac dictum tempus, magna eros elementum libero, a aliquet lorem magna eu sem.",
+         "img_path": "assets/images/example.webp",
          "img_alt": "Imagen del proyecto"
        },
        {
          "title": "Titulo 3",
-         "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. In vehicula bibendum lacus ut dignissim. Proin metus lacus, blandit vehicula turpis sagittis, blandit pellentesque augue. Aenean eget aliquet urna. Phasellus quis mauris vitae dolor finibus feugiat. Donec eleifend, enim vitae suscipit posuere, diam quam iaculis sapien, vel molestie justo elit at leo. Etiam pulvinar, libero ac dictum tempus, magna eros elementum libero, a aliquet lorem magna eu sem. In in egestas diam. Nunc rhoncus tristique turpis, vel mattis augue suscipit sit amet. Nullam scelerisque mi suscipit egestas malesuada. Donec suscipit mollis lectus, sed lacinia tortor porta sed. Etiam et velit nulla. Proin pellentesque elit accumsan, aliquet nunc vel, consectetur nulla. Maecenas vulputate sollicitudin elit, non pretium elit aliquet vitae. Suspendisse et interdum risus, nec laoreet est.",
-         "img_path": "assets/icons/image.svg",
+         "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. In vehicula bibendum lacus ut dignissim. Proin metus lacus, blandit vehicula turpis sagittis, blandit pellentesque augue. Aenean eget aliquet urna. Phasellus quis mauris vitae dolor finibus feugiat. Donec eleifend, enim vitae suscipit posuere, diam quam iaculis sapien, vel molestie justo elit at leo. Etiam pulvinar, libero ac dictum tempus, magna eros elementum libero, a aliquet lorem magna eu sem.",
+         "img_path": "assets/images/example.webp",
          "img_alt": "Imagen del proyecto"
        },
        {
          "title": "Titulo 4",
-         "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. In vehicula bibendum lacus ut dignissim. Proin metus lacus, blandit vehicula turpis sagittis, blandit pellentesque augue. Aenean eget aliquet urna. Phasellus quis mauris vitae dolor finibus feugiat. Donec eleifend, enim vitae suscipit posuere, diam quam iaculis sapien, vel molestie justo elit at leo. Etiam pulvinar, libero ac dictum tempus, magna eros elementum libero, a aliquet lorem magna eu sem. In in egestas diam. Nunc rhoncus tristique turpis, vel mattis augue suscipit sit amet. Nullam scelerisque mi suscipit egestas malesuada. Donec suscipit mollis lectus, sed lacinia tortor porta sed. Etiam et velit nulla. Proin pellentesque elit accumsan, aliquet nunc vel, consectetur nulla. Maecenas vulputate sollicitudin elit, non pretium elit aliquet vitae. Suspendisse et interdum risus, nec laoreet est.",
-         "img_path": "assets/icons/image.svg",
+         "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. In vehicula bibendum lacus ut dignissim. Proin metus lacus, blandit vehicula turpis sagittis, blandit pellentesque augue. Aenean eget aliquet urna. Phasellus quis mauris vitae dolor finibus feugiat. Donec eleifend, enim vitae suscipit posuere, diam quam iaculis sapien, vel molestie justo elit at leo. Etiam pulvinar, libero ac dictum tempus, magna eros elementum libero, a aliquet lorem magna eu sem.",
+         "img_path": "assets/images/example.webp",
          "img_alt": "Imagen del proyecto"
        }
      ]
@@ -127,7 +127,7 @@
     "github_alt": "github",
     "email": "mailto:correo@correo.com",
     "email_alt": "email",
-    "creator": "Creado por:", 
+    "creator": "Creado por:",
     "creator_Alba": "akua21",
     "creator_Alba_Link": "https://www.github.com/akua21",
     "creator_Ale": "Pheithar",
