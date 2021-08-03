@@ -1,3 +1,5 @@
+@import "src/styles";
+
 .experience-section {
     display: flex;
     flex-direction: column;
@@ -22,15 +24,26 @@
             flex-flow: row wrap;
             align-items: center;
             margin: auto;
-            
+
             &__box{
                 padding: 3rem;
                 margin: 1.5rem;
-                
+
                 min-width: 30rem;
                 max-width: 50rem;
-                
-                border-radius: 1rem;
+
+                border-radius: .4rem;
+                border-top: 4px solid $color-principal;
+
+                overflow: hidden;
+                box-shadow: 0 1rem 3rem rgba(0, 0, 0, .1);
+                cursor: pointer;
+                transition: .2s;
+
+                &:hover {
+                  transform: translateY(-.5rem);
+                  box-shadow: 0 2rem 4rem rgba(0, 0, 0, .2);
+                }
 
                 background-color: sandybrown;
             }
@@ -50,15 +63,16 @@
             flex-flow: row wrap;
             align-items: center;
             margin: auto;
-            
+
             &__box{
                 padding: 3rem;
                 margin: 1.5rem;
-                
+
                 min-width: 30rem;
                 max-width: 50rem;
-                
+
                 border-radius: 1rem;
+                border-top: 4px solid $color-principal;
 
                 background-color: sandybrown;
             }
