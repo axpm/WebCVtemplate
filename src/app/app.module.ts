@@ -12,6 +12,7 @@ import { ContactSectionComponent } from './contact-section/contact-section.compo
 import { LanguageSelectorComponent } from './language-selector/language-selector.component';
 import { MenuComponent } from './menu/menu.component';
 import { FooterComponent } from './footer/footer.component';
+import { ButtonComponent } from './button/button.component';
 
 @NgModule({
   declarations: [
@@ -24,7 +25,8 @@ import { FooterComponent } from './footer/footer.component';
     ContactSectionComponent,
     LanguageSelectorComponent,
     MenuComponent,
-    FooterComponent
+    FooterComponent,
+    ButtonComponent
   ],
   imports: [
     BrowserModule,

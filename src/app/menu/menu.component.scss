@@ -86,17 +86,17 @@
   &__no-list {
     top: -2.5rem;
     left: -2.5rem;
-    display: none;
+    visibility: hidden;
   }
 
   &__hide-list {
-    animation-name: moveInRight;
-    animation-duration: .25s;
-    animation-timing-function: ease-out;
 
     top: -2.5rem;
     left: -2.5rem;
+    visibility: hidden;
     opacity: 0;
+    transform: translateX(-15rem);
+    transition: visibility 0s linear 0.33s, transform 0.33s linear, opacity 0.33s linear;
   }
 
   &__show-list {

@@ -1,0 +1,203 @@
+@import "src/styles";
+
+@keyframes moveInBottom {
+  0% {
+    opacity: 0;
+    transform: translateY(2.5rem);
+
+  }
+
+  100%{
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.move-up {
+  animation: moveInBottom .5s ease-out .75;
+}
+
+.button {
+
+  height: 40rem;
+  padding: 10rem;
+
+  background-color: red;
+
+  & > div {
+    margin: 2rem;
+  }
+
+  &__basic {
+    display: inline-block;
+
+    padding:0.35em 1.2em;
+    border:0.1em solid #FFFFFF;
+    border-radius:0.12em;
+    box-sizing: border-box;
+    text-decoration:none;
+    font-family:'Roboto',sans-serif;
+    font-weight:300;
+    color:#FFFFFF;
+    text-align:center;
+    transition: all 0.2s;
+
+    cursor: pointer;
+
+    &:hover {
+      color:#000000;
+      background-color:#FFFFFF;
+    }
+  }
+
+
+  &__elevate {
+
+    display: inline-block;
+
+    text-transform: uppercase;
+    text-decoration: none;
+    padding: 1.5rem 4rem;
+    border-radius: 10rem;
+    transition: all .2s;
+    border: none;
+    cursor: pointer;
+
+    position: relative;
+
+    background-color: #fff;
+    color: #777;
+
+    &::after {
+      content: ""; /* Es un atributo obligatorio */
+
+      display: inline-block;
+      height: 100%;
+      width: 100%;
+      border-radius: 10rem;
+
+      position: absolute;
+      top: 0;
+      left: 0;
+
+      z-index: -1;
+      background-color: white;
+      transition: all .4s;
+    }
+
+    &:hover {
+      transform: translateY(-1rem);
+      box-shadow: 0.2rem 1rem 2rem rgba(0,0,0,0.2);
+
+      &::after {
+        transform: scaleX(1.4) scaleY(1.6);
+        opacity: 0;
+      }
+    }
+
+    &:active {
+      transform: translateY(-0.1rem);
+      box-shadow: 0.1rem 0.5rem 1rem rgba(0,0,0,0.4);
+    }
+  }
+
+  &__icon {
+    position: relative;
+    background-color: white;
+    border-radius: 50%;
+    padding: 15px;
+    margin: 10px;
+    width: 50px;
+    height: 50px;
+    font-size: 18px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    box-shadow: 0 10px 10px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+    transition: all 0.2s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+
+    &:hover {
+      background-color: blue;
+    }
+
+    &:hover &-span > img {
+      filter: invert(100%);
+    }
+
+    &:hover &-tooltip{
+      top: -45px;
+      opacity: 1;
+      visibility: visible;
+      pointer-events: auto;
+    }
+
+    &:hover &-tooltip, &:hover span {
+      text-shadow: 0px -1px 0px rgba(0, 0, 0, 0.1);
+    }
+
+    &-tooltip {
+      position: absolute;
+      top: 0;
+      font-size: 14px;
+      background-color: #ffffff;
+      color: blue;
+      padding: 5px 8px;
+      border-radius: 5px;
+      box-shadow: 0 10px 10px rgba(0, 0, 0, 0.1);
+      opacity: 0;
+      pointer-events: none;
+      transition: all 0.3s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+
+      &::before {
+        position: absolute;
+        content: "";
+        height: 8px;
+        width: 8px;
+        background-color: #ffffff;
+        bottom: -3px;
+        left: 50%;
+        transform: translate(-50%) rotate(45deg);
+        transition: all 0.3s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+      }
+    }
+
+    &-span {
+      display: flex;
+
+      & > img {
+        transition: all 0.2s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+        width: 2rem;
+      }
+    }
+  }
+
+  &__explore {
+    display: block;
+    width: 100%;
+    padding: 1.5rem;
+    font-size: 2rem;
+    text-align: center;
+    color: black;
+    background-color: $color-principal;
+    border: none;
+    border-radius: .4rem;
+    transition: .2s;
+    cursor: pointer;
+
+    & > span {
+      margin-left: 1rem;
+      transition: .2s;
+    }
+
+    &:hover {
+      background-color: $color-secondary;
+
+      span {
+        margin-left: 1.5rem;
+      }
+    }
+  }
+
+}
