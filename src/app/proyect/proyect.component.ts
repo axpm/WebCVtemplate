@@ -11,6 +11,7 @@ export class ProyectComponent implements OnInit {
   @Input() content?: String;
   @Input() img?: String;
   @Input() img_alt?: String;
+  @Input() btn?: String;
 
   constructor() { }
 
