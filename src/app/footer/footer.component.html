@@ -1,22 +1,16 @@
 <footer class="footer">
 
     <div class="footer__rrss">
-        <a target="_blank" href={{text.linkedin}} class="frontpage__rrss-linkedin btn-svg">
-            <img src="assets/icons/linkedin.svg" alt={{text.linkedin_alt}} class="">
-        </a>
-        
-        <a target="_blank" href={{text.github}} class="frontpage__rrss-github btn-svg">
-                <img src="assets/icons/github.svg" alt={{text.github_alt}} class="">
-            </a>
-            
-        <a target="_blank" href={{text.email}} class="frontpage__rrss-email btn-svg">
-            <img src="assets/icons/email.svg" alt={{text.email_alt}} class="">
-        </a>
+      <app-button [text]="text.linkedin_alt" [type]="'icon'" [color]="text.linkedin_color" [img]="text.linkedin_img" [link]="text.linkedin"></app-button>
+
+      <app-button [text]="text.github_alt" [type]="'icon'" [color]="text.github_color" [img]="text.github_img" [link]="text.github"></app-button>
+
+      <app-button [text]="text.email_alt" [type]="'icon'" [color]="text.email_color" [img]="text.email_img" [link]="text.email"></app-button>
     </div>
 
     <div class="footer__creators">
         <p class="creators-text p-font"> {{text.creator}} </p>
-        
+
         <a target="_blank" href={{text.creator_Alba_Link}} class="p-font footer__creators-Alba btn">
             {{text.creator_Alba}}
         </a>
@@ -26,6 +20,6 @@
         <a target="_blank" href={{text.creator_Alex}} class="footer__creators-Alex btn p-font">
             {{text.creator_Alex}}
         </a>
-    </div> 
+    </div>
 
 </footer>

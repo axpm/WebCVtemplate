@@ -14,24 +14,14 @@
     background-color: hotpink;
 
     &__rrss{
-        flex-flow: row wrap;
-        
-        &-linkedin{
-        }
-        &-github{
-            order: 1;
-        }
-        &-email{
-            order: 2;
-        }
+      display: flex;
+      flex-flow: row wrap;
 
-        &>a>*  {
-            margin: 2rem 4rem;
-            width: 3rem;
-            height: auto;
-
-            filter: $filter-color-svg;
-        }
+      &>*  {
+          margin: 2rem 4rem;
+          width: 3rem;
+          height: auto;
+      }
     }
 
     &__creators{
