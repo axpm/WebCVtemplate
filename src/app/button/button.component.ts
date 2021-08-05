@@ -10,6 +10,12 @@ export class ButtonComponent implements OnInit {
   @Input() text?: String;
 
   @Input() type = "default";
+  @Input() link? : String;
+  @Input() img? : String;
+  @Input() color? : String;
+
+
+  @Input() move = false;
 
   constructor() { }
 

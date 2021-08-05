@@ -19,16 +19,16 @@
         margin: 15rem 0 3rem 0;
         height: 10rem;
         width: auto;
-        
+
         filter: $filter-color-svg;
     }
-    
+
     &__username{
         // font-size: 6rem;
         margin: 2rem 0 1rem 0;
         text-align: center;
     }
-    
+
     &__role{
         // font-size: 3rem;
         margin-bottom: 3rem;
@@ -38,30 +38,19 @@
     &__aboutme{
         width: 70vw;
         // font-size: 2rem;
-        
-        text-align:justify; // opcional 
+
+        text-align:justify; // opcional
     }
 
     &__rrss{
-        flex-flow: row wrap;
-        
-        &-linkedin{
-        }
-        &-github{
-            order: 1;
-        }
-        &-email{
-            order: 2;
-        }
+      display: flex;
+      flex-flow: row wrap;
 
-        &>a>*  {
-            margin: 2rem 4rem;
-            width: 3rem;
-            height: auto;
-
-            filter: $filter-color-svg;
-        }
+      &>*  {
+          margin: 2rem 4rem;
+          width: 3rem;
+          height: auto;
+      }
     }
 
 }
-

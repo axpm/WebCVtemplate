@@ -109,8 +109,10 @@
     cursor: pointer;
     transition: all 0.2s cubic-bezier(0.68, -0.55, 0.265, 1.55);
 
+    color: var(--color);
+
     &:hover {
-      background-color: blue;
+      background-color: var(--color);
     }
 
     &:hover &-span > img {
@@ -133,7 +135,6 @@
       top: 0;
       font-size: 14px;
       background-color: #ffffff;
-      color: blue;
       padding: 5px 8px;
       border-radius: 5px;
       box-shadow: 0 10px 10px rgba(0, 0, 0, 0.1);
@@ -191,4 +192,12 @@
     }
   }
 
+}
+
+.linkedin {
+  color: rgb(14, 118, 168);
+
+  &:hover {
+    background-color: rgb(14, 118, 168);
+  }
 }

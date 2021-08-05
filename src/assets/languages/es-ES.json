@@ -13,11 +13,17 @@
      "role": "Ingeniería Informática",
      "about_me": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores, cum nobis quibusdam soluta facere omnis, nulla ea voluptatem hic quam sint minus in maiores, veniam iure. Sapiente recusandae error quo\nLorem ipsum dolor sit amet consectetur adipisicing elit. Quo temporibus quos optio earum? Maiores aperiam nam ratione labore numquam assumenda unde, amet obcaecati temporibus, dolorem architecto debitis natus eligendi quibusdam?",
      "linkedin": "https://www.linkedin.com/",
-     "linkedin_alt": "linkedin",
+     "linkedin_alt": "Linkedin",
+     "linkedin_img": "assets/icons/linkedin.svg",
+     "linkedin_color": "rgb(14, 118, 168)",
      "github": "https://www.github.com/",
-     "github_alt": "github",
+     "github_alt": "Github",
+     "github_img": "assets/icons/github.svg",
+     "github_color": "rgb(23, 21, 21)",
      "email": "mailto:correo@correo.com",
-     "email_alt": "email"
+     "email_alt": "Email",
+     "email_img": "assets/icons/email.svg",
+     "email_color": "rgb(199, 22, 16)"
    },
 
    "experience_section": {

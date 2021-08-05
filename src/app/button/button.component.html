@@ -1,20 +1,22 @@
-<div class="button">
-  <div *ngIf="type=='default'" class="button__basic p-font">
+<div class="button" [ngClass]="{'move-up': move}">
+  <div *ngIf="type=='default'"  class="button__basic p-font">
     {{text}}
   </div>
 
-  <div *ngIf="type=='elevate'" class="button__elevate p-font move-up">
+  <div *ngIf="type=='elevate'" class="button__elevate p-font">
     {{text}}
   </div>
 
-  <div *ngIf="type=='icon'" class="button__icon">
+  <div *ngIf="type=='icon'" class="button__icon" style=--color:{{color}};>
     <div class="button__icon-tooltip">{{text}}</div>
-    <span class="button__icon-span">
-      <img src="assets/icons/linkedin.svg" alt="test">
-    </span>
+    <a href={{link}} target="_blank">
+      <span class="button__icon-span">
+        <img src="{{img}}" alt={{text}}>
+      </span>
+    </a>
   </div>
 
-  <div *ngIf="type=='explore'" class="button__explore p-font move-up">
+  <div *ngIf="type=='explore'" class="button__explore p-font">
     {{text}} <span>&rarr;</span>
   </div>
 </div>
