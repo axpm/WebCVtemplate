@@ -3,13 +3,13 @@
         <h1 class="experience-section__jobs-title h1-font">{{text.title_experience}}</h1>
         <div class="experience-section__jobs-content">
 
-            <div *ngFor="let experience of text.experiences" class="experience-section__jobs-content__box">
+            <div *ngFor="let experience of text.experiences" class="experience-section__jobs-content__box" style=--color:{{experience.color}};>
                 <i class="experience-section__jobs-content__box__icon icon-basic-map"></i>
                 <h3 class="u-margin-bottom-small h3-font">{{experience.title}}</h3>
                 <p class="u-margin-bottom-medium experience-section__jobs-content__box__text p-font">
                     {{experience.content}}
                 </p>
-                <button class="btn btn-primary u-margin-bottom-medium">{{experience.more_info}} &rarr;</button>
+                <app-button [text]="experience.more_info" [type]="'elevate'"></app-button>
             </div>
         </div>
     </div>
@@ -18,13 +18,13 @@
         <h1 class="experience-section__studies-title h1-font">{{text.title_studies}}</h1>
         <div class="experience-section__studies-content">
 
-            <div *ngFor="let study of text.studies" class="experience-section__studies-content__box">
+            <div *ngFor="let study of text.studies" class="experience-section__studies-content__box" style=--color:{{study.color}};>
                 <i class="experience-section__studies-content__box__icon icon-basic-map"></i>
                 <h3 class="u-margin-bottom-small h3-font">{{study.title}}</h3>
                 <p class="u-margin-bottom-medium experience-section__studies-content__box__text p-font">
                     {{study.content}}
                 </p>
-                <button class="btn btn-primary u-margin-bottom-medium">{{study.more_info}} &rarr;</button>
+                <app-button [text]="study.more_info" [type]="'elevate'"></app-button>
             </div>
         </div>
     </div>

@@ -32,30 +32,41 @@
        {
          "title": "Find your way",
          "content": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam, ipsum sapiente aspernatur.",
-         "more_info": "Más información"
+         "more_info": "Más información",
+         "color": "rgb(100, 100, 0)"
        },
        {
          "title": "Find your way2",
          "content": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam, ipsum sapiente aspernatur.",
-         "more_info": "Más información"
+         "more_info": "Más información",
+         "color": "rgb(100, 50, 50)"
        },
        {
          "title": "Find your way3",
          "content": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam, ipsum sapiente aspernatur.",
-         "more_info": "Más información"
+         "more_info": "Más información",
+         "color": "rgb(200, 100, 100)"
+       },
+       {
+         "title": "Find your way3",
+         "content": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam, ipsum sapiente aspernatur.",
+         "more_info": "Más información",
+         "color": "rgb(100, 0, 150)"
        }
      ],
-     "title_studies": "Studies",
+     "title_studies": "Estudios",
      "studies": [
        {
          "title": "Find your way",
          "content": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam, ipsum sapiente aspernatur.",
-         "more_info": "Más información"
+         "more_info": "Más información",
+         "color": "rgb(100, 100, 200)"
        },
        {
          "title": "Find your way",
          "content": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam, ipsum sapiente aspernatur.",
-         "more_info": "Más información"
+         "more_info": "Más información",
+         "color": "rgb(100, 100, 250)"
        }
      ]
    },
