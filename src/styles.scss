@@ -1,3 +1,5 @@
+@import "mediaQueryManager.scss";
+
 /* Colours */
 $color-principal: #7de7f5;
 $color-principal-light: #531313;
@@ -21,11 +23,27 @@ $drop-shadow-btn-svg: drop-shadow(.5rem .5rem 1rem rgba(0, 0, 0, .5));
   margin: 0;
   padding: 0;
   box-sizing: inherit;
+
+	
 }
 
 html{
   font-size: 62.5%; /* default font size is 16, so with this we have 10px of default*/
   scroll-behavior: smooth;
+
+	
+	@include respond(tab-land) { // width < 1200?
+			font-size: 56.25%; //1 rem = 9px, 9/16 = 50%
+	}
+
+	  @include respond(tab-port) { // width < 900?
+        font-size: 50%; //1 rem = 8px, 8/16 = 50%
+    }
+    
+    @include respond(big-desktop) {
+        font-size: 75%; //1rem = 12, 12/16
+    }
+
 }
 
 /* Todas las cosas se heredarán */
@@ -37,10 +55,25 @@ body{
 
     font-family: "Lato", sans-serif;
     box-sizing: border-box;
-    margin: 2.5rem;
-    margin-bottom: 0;
+    // margin: 2.5rem;
+    // margin-bottom: 0;
+
+		padding: 3rem;
+		padding-bottom: 0;
+
+		width: 100%;
+
+		@include respond(tab-port) {
+			padding: 0;
+			// margin: 0;
+    }
 
     /* font-size: 16px; */
+}
+/* Cambiar el color al seleccionar algo en la web */
+::selection {
+    background-color: $color-principal;
+    color: $color-white;
 }
 
 .btn{
@@ -137,3 +170,5 @@ body{
 .u-margin-bottom-small{
     margin-bottom: 0.1rem;
 }
+
+

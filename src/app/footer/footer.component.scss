@@ -1,4 +1,3 @@
-
 @import "src/styles";
 
 .footer{
@@ -14,14 +13,28 @@
     background-color: hotpink;
 
     &__rrss{
-      display: flex;
-      flex-flow: row wrap;
+        width: 30%;
+        text-align: center;
 
-      &>*  {
-          margin: 2rem 4rem;
-          width: 3rem;
-          height: auto;
-      }
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        margin-bottom: 2rem;
+
+        @include respond(tab-port) {
+            width: 60%;
+        }
+    
+        @include respond(phone) {
+            width: 80%;
+        }
+
+        &>* {
+            position: relative;
+            left: -2.4rem;
+            width: 3rem;
+            height: auto;
+        }
     }
 
     &__creators{

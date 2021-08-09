@@ -12,8 +12,12 @@
     width: 100%;
     margin: auto;
 
-    background-color: $color-principal;
+	  background-color: $color-principal;
     color: $color-text-alternative;
+
+		@include respond(phone) {
+			height: 100%;
+		}
 
     &__profile{
         margin: 15rem 0 3rem 0;
@@ -42,15 +46,31 @@
         text-align:justify; // opcional
     }
 
-    &__rrss{
-      display: flex;
-      flex-flow: row wrap;
+		&__rrss{
+			width: 30%;
+			text-align: center;
 
-      &>*  {
-          margin: 2rem 4rem;
-          width: 3rem;
-          height: auto;
-      }
+			display: flex;
+			flex-direction: row;
+			justify-content: space-around;
+			margin-top: 4rem ;
+			margin-bottom: 4rem;
+
+			@include respond(tab-port) {
+				width: 60%;
+			}
+		
+			@include respond(phone) {
+				width: 80%;
+			}
+
+			&>* {
+				position: relative;
+				left: -2.4rem;
+				width: 3rem;
+				height: auto;
+			}
+      
     }
 
 }
