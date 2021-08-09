@@ -4,11 +4,11 @@
     <span class="menu-icon">&nbsp;</span>
   </label>
   <ul [ngClass]="{'menu__hide-list': !display_menu && show_list, 'menu__show-list': display_menu && show_list, 'menu__no-list': !show_list}" class="menu__list">
-    <li class="menu__list-element h3-font"><a href="#frontpage">{{text.frontpage}}</a></li>
-    <li class="menu__list-element h3-font"><a href="#experience">{{text.experience}}</a></li>
-    <li class="menu__list-element h3-font"><a href="#studies">{{text.studies}}</a></li>
-    <li class="menu__list-element h3-font"><a href="#languages_tools">{{text.languages_tools}}</a></li>
-    <li class="menu__list-element h3-font"><a href="#proyects">{{text.proyects}}</a></li>
-    <li class="menu__list-element h3-font"><a href="#contact">{{text.contact}}</a></li>
+    <li class="menu__list-element h3-font" (click)="changeVisibility()"><a href="#frontpage">{{text.frontpage}}</a></li>
+    <li class="menu__list-element h3-font" (click)="changeVisibility()"><a href="#experience">{{text.experience}}</a></li>
+    <li class="menu__list-element h3-font" (click)="changeVisibility()"><a href="#studies">{{text.studies}}</a></li>
+    <li class="menu__list-element h3-font" (click)="changeVisibility()"><a href="#languages_tools">{{text.languages_tools}}</a></li>
+    <li class="menu__list-element h3-font" (click)="changeVisibility()"><a href="#proyects">{{text.proyects}}</a></li>
+    <li class="menu__list-element h3-font" (click)="changeVisibility()"><a href="#contact">{{text.contact}}</a></li>
   </ul>
 </div>

@@ -7,9 +7,14 @@
                 <i class="experience-section__jobs-content__box__icon icon-basic-map"></i>
                 <h3 class="u-margin-bottom-small h3-font">{{experience.title}}</h3>
                 <p class="u-margin-bottom-medium experience-section__jobs-content__box__text p-font">
-                    {{experience.content}}
+                  {{experience.content}}
                 </p>
-                <app-button [text]="experience.more_info" [type]="'elevate'"></app-button>
+                <p class="experience-section__jobs-content__box__date p-font">
+                  {{experience.date}}
+                </p>
+                <div class="experience-section__jobs-content__box__button">
+                  <app-button [text]="experience.more_info" [type]="'elevate'"></app-button>
+                </div>
             </div>
         </div>
     </div>
@@ -22,9 +27,14 @@
                 <i class="experience-section__studies-content__box__icon icon-basic-map"></i>
                 <h3 class="u-margin-bottom-small h3-font">{{study.title}}</h3>
                 <p class="u-margin-bottom-medium experience-section__studies-content__box__text p-font">
-                    {{study.content}}
+                  {{study.content}}
                 </p>
-                <app-button [text]="study.more_info" [type]="'elevate'"></app-button>
+                <p class="experience-section__studies-content__box__date p-font">
+                  {{study.date}}
+                </p>
+                <div class="experience-section__studies-content__box__button">
+                  <app-button [text]="study.more_info" [type]="'elevate'"></app-button>
+                </div>
             </div>
         </div>
     </div>
