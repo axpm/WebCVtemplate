@@ -3,17 +3,32 @@
 .contact-section {
     display: flex;
     flex-direction: column;
-    min-height: 100vh;
+    // min-height: 100vh;
     background-color: $color-principal-light;
     padding: 10rem 17rem;
+    width: 100%;
+
+    @include respond(tab-land){
+        height: 100%;
+        padding: 5rem 5rem;
+    }
 
     &__contact-form {
         background-color: $color-principal;
         width: 70%;
         padding: 3rem;
-        &-title {
-            font-size: 3rem;
 
+        @include respond(tab-land){
+            width: 85%;
+            height: 100%;
+        }
+
+        @include respond(tab-port){
+            width: 95%
+        }
+
+        &-title {
+            font-weight: bold;
         }
 
         &__inputs {
@@ -21,12 +36,29 @@
             flex-direction: column;
             width: 50%;
 
+            @include respond(tab-port){
+                width: 75%
+            }
+
+            @include respond(phone){
+                width: 95%
+            }
+
             & > * {
                 margin: 1rem;
             }
 
             & > input {
                 width: 60%;
+
+                @include respond(tab-port){
+                width: 75%
+                }
+
+                @include respond(phone){
+                    width: 95%
+                }
+
             }
 
             &-submit {
