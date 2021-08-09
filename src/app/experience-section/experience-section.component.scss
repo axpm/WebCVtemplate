@@ -13,11 +13,21 @@
     background: rgb(126, 125, 125);
 
     &__jobs, &__studies{
-        width: 80vw;
+        width: 90vw;
         background-color: red;
         display: flex;
         flex-direction: column;
 
+        @include respond(phone){
+          width: 100%;
+          padding: 2rem;
+        }
+
+        @media (max-width: 330px) {
+          padding: 0;
+        }
+
+        
         &-content{
             background-color: salmon;
             display: flex;
