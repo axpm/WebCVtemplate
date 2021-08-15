@@ -33,6 +33,19 @@
         letter-spacing: .1rem;
         line-height: 1.7;
         margin-bottom: 2.5rem;
+        /* Cortar el contenido en 13 líneas*/
+        display: -webkit-box;
+        -webkit-box-orient: vertical;
+        -webkit-line-clamp: 13;
+        overflow: hidden;
+
+        @include respond(tab-port){
+           -webkit-line-clamp: 8;
+        }
+
+        @include respond(phone){
+            -webkit-line-clamp: 5;
+        }
     }
 
     &__image {

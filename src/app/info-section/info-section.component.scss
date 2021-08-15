@@ -23,6 +23,8 @@
        justify-content: center;
     }
 
+    
+
     &__card{
         background: greenyellow;
         padding: 3rem;
@@ -32,10 +34,14 @@
         max-width: 60rem;
         
         border-radius: 1rem;
-
-        @include respond(tab-land) {
-            min-width: 0;
+        
+        @include respond(tab-port){
             width: 80%;
+        }
+
+        @include respond(tab-land){
+            min-width: 0;
+            width: 70%;
         }
         
         @include respond(phone){

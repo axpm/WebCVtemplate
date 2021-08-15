@@ -7,8 +7,31 @@
     background-color: $color-secondary-dark;
     padding: 10rem 3rem;
 
+    @include respond(tab-land){
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+    }
+
+    // @include respond(phone){
+        
+    // }
+
     & > * {
-        margin: 3rem;
-        flex-grow: 1;
+      margin: 3rem;
+      flex-grow: 1;
+
+      @include respond(tab-land){
+        width: 70%;
+      }
+
+      @include respond(tab-port){
+        width: 80%;
+      }
+
+      @include respond(phone){
+        width: 90%;
+      }
+
     }
 }
