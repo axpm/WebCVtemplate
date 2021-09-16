@@ -37,6 +37,8 @@ export class MenuComponent implements OnInit, OnChanges {
   changeVisibility() {
     this.show_list = true;
     this.display_menu = !this.display_menu;
+    console.log();
+
   }
 
 }

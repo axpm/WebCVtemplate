@@ -6,7 +6,7 @@
     flex-direction: column;
     align-items: center;
 
-    height: 100vh; // Revisar en función de cómo unamos las secciones y sobre todo en dispositivos móviles
+    height: 80rem; // Revisar en función de cómo unamos las secciones y sobre todo en dispositivos móviles
     // width: 70vw;
     // width: 100vw;
     width: 100%;
@@ -15,9 +15,19 @@
 	  background-color: $color-principal;
     color: $color-text-alternative;
 
-		@include respond(phone) {
-			height: 100%;
+    @include respond(tab-land) {
+			height: 90rem;
 		}
+
+    @include respond(tab-port) {
+			height: 90rem;
+		}
+
+		@include respond(phone) {
+			height: 110rem;
+		}
+
+
 
     &__profile{
         margin: 15rem 0 3rem 0;
@@ -59,7 +69,7 @@
 			@include respond(tab-port) {
 				width: 60%;
 			}
-		
+
 			@include respond(phone) {
 				width: 80%;
 			}
@@ -70,7 +80,7 @@
 				width: 3rem;
 				height: auto;
 			}
-      
+
     }
 
 }
