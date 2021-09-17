@@ -31,6 +31,9 @@
   top: 2.5rem;
   z-index: 1;
 
+  top: 3rem;
+  
+
   &-checkbox {
     display: none;
   }
@@ -45,6 +48,10 @@
     width: 7rem;
     border-radius: 50%;
 
+    height: 6rem;
+    width: 6rem;
+    background-color: $color-principal;
+
     transition: all .3s;
 
     z-index: 2;
@@ -52,8 +59,8 @@
 
   &-icon {
     position: relative;
-    margin-top: 3.5rem;
-
+    // margin-top: 3.5rem;
+    margin-top: 3rem;
 
     z-index: 3;
 
