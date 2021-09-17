@@ -126,17 +126,17 @@
 
       margin: 3rem;
 
-      & > a {
+      & > label {
         text-decoration: none;
         color: $color-text;
         cursor: pointer;
       }
 
-      & > a > label {
-        text-decoration: none;
-        color: $color-text;
-        cursor: pointer;
-      }
+      // & > label > a {
+      //   text-decoration: none;
+      //   color: $color-text;
+      //   cursor: pointer;
+      // }
     }
   }
 

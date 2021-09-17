@@ -11,6 +11,8 @@ export class MenuComponent implements OnInit, OnChanges {
 
   @Input() language?: String;
 
+
+
   text = language_es.menu;
   show_list = false;
 
@@ -37,7 +39,11 @@ export class MenuComponent implements OnInit, OnChanges {
   changeVisibility() {
     this.show_list = true;
     this.display_menu = !this.display_menu;
-    console.log();
+  }
+
+  changeWindowLocation(location: string) {
+    window.location.hash = location;
+    console.log("A");
 
   }
 

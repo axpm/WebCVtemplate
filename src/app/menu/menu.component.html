@@ -4,11 +4,11 @@
     <span class="menu-icon">&nbsp;</span>
   </label>
   <ul [ngClass]="{'menu__hide-list': !display_menu && show_list, 'menu__show-list': display_menu && show_list, 'menu__no-list': !show_list}" class="menu__list">
-    <li class="menu__list-element h3-font" (click)="changeVisibility()"><a href="#frontpage"><label for="menu-toggle">{{text.frontpage}}</label></a></li>
-    <li class="menu__list-element h3-font" (click)="changeVisibility()"><a href="#experience"><label for="menu-toggle">{{text.experience}}</label></a></li>
-    <li class="menu__list-element h3-font" (click)="changeVisibility()"><a href="#studies"><label for="menu-toggle">{{text.studies}}</label></a></li>
-    <li class="menu__list-element h3-font" (click)="changeVisibility()"><a href="#languages_tools"><label for="menu-toggle">{{text.languages_tools}}</label></a></li>
-    <li class="menu__list-element h3-font" (click)="changeVisibility()"><a href="#proyects"><label for="menu-toggle">{{text.proyects}}</label></a></li>
-    <li class="menu__list-element h3-font" (click)="changeVisibility()"><a href="#contact"><label for="menu-toggle">{{text.contact}}</label></a></li>
+    <li class="menu__list-element h3-font"><label (click)="changeVisibility()" (click)="changeWindowLocation('#frontpage')" for="menu-toggle">{{text.frontpage}}</label></li>
+    <li class="menu__list-element h3-font"><label (click)="changeVisibility()" (click)="changeWindowLocation('#experience')" for="menu-toggle">{{text.experience}}</label></li>
+    <li class="menu__list-element h3-font"><label (click)="changeVisibility()" (click)="changeWindowLocation('#studies')" for="menu-toggle">{{text.studies}}</label></li>
+    <li class="menu__list-element h3-font"><label (click)="changeVisibility()" (click)="changeWindowLocation('#languages_tools')" for="menu-toggle">{{text.languages_tools}}</label></li>
+    <li class="menu__list-element h3-font"><label (click)="changeVisibility()" (click)="changeWindowLocation('#proyects')" for="menu-toggle">{{text.proyects}}</label></li>
+    <li class="menu__list-element h3-font"><label (click)="changeVisibility()" (click)="changeWindowLocation('#contact')" for="menu-toggle">{{text.contact}}</label></li>
   </ul>
 </div>
