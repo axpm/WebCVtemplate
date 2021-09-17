@@ -31,6 +31,9 @@
   top: 2.5rem;
   z-index: 1;
 
+  top: 3rem;
+
+
   &-checkbox {
     display: none;
   }
@@ -45,6 +48,10 @@
     width: 7rem;
     border-radius: 50%;
 
+    height: 6rem;
+    width: 6rem;
+    background-color: $color-principal;
+
     transition: all .3s;
 
     z-index: 2;
@@ -52,8 +59,8 @@
 
   &-icon {
     position: relative;
-    margin-top: 3.5rem;
-
+    // margin-top: 3.5rem;
+    margin-top: 3rem;
 
     z-index: 3;
 
@@ -116,9 +123,10 @@
 
     width: 40rem;
     height: 100vh;
+    top: -3rem;
 
     padding: 7rem 2.5rem;
-    background-color: red;
+    background-color: $color-principal;
 
     &-element {
       text-align: center;
@@ -128,15 +136,13 @@
 
       & > label {
         text-decoration: none;
-        color: $color-text;
+        color: $color-text-alternative;
         cursor: pointer;
       }
 
-      // & > label > a {
-      //   text-decoration: none;
-      //   color: $color-text;
-      //   cursor: pointer;
-      // }
+      :hover{
+        background-color: $color-principal-light;
+      }
     }
   }
 

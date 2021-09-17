@@ -10,11 +10,12 @@
     width: 100%;
     margin: auto;
 
-    background: rgb(126, 125, 125);
+    background: $color-secondary;
 
     &__jobs, &__studies{
         width: 90vw;
-        background-color: red;
+        // background-color: $color-secondary-dark;
+        text-align: center;
         display: flex;
         flex-direction: column;
 
@@ -29,12 +30,14 @@
 
         
         &-content{
-            background-color: salmon;
-            display: flex;
-            flex-flow: row wrap;
-            align-items: center;
-            justify-content: center;
-            margin: auto;
+          text-align: justify;
+
+          // background-color: $color-secondary-light;
+          display: flex;
+          flex-flow: row wrap;
+          align-items: center;
+          justify-content: center;
+          margin: auto;
 
             &__box{
                 padding: 3rem;
@@ -50,7 +53,7 @@
                 box-shadow: 0 1rem 3rem rgba(0, 0, 0, .1);
                 cursor: pointer;
                 transition: .2s;
-                background-color: sandybrown;
+                background-color: $color-secondary-light;
 
                 &:hover {
                   transform: translateY(-.5rem);
