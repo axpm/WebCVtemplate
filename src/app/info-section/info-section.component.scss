@@ -15,7 +15,7 @@
     width: 100%;
     margin: auto;
 
-    background-color: olive;
+    background-color: $color-secondary-light;
 
     @include respond(tab-land) {
        flex-direction: column;
@@ -26,7 +26,7 @@
     
 
     &__card{
-        background: greenyellow;
+        background-color: $color-secondary-dark;
         padding: 3rem;
         margin: 1.5rem;
         
@@ -53,12 +53,12 @@
         &-list{
             list-style: none;
             padding: 3rem;
-            background: blue;
+            background-color: $color-principal;
             border-radius: 1rem;
 
             &-element{
                 margin: 1rem;
-                color: white;
+                color: $color-text-alternative;
                 display: flex;
             }
         }

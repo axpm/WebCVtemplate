@@ -123,9 +123,10 @@
 
     width: 40rem;
     height: 100vh;
+    top: -3rem;
 
     padding: 7rem 2.5rem;
-    background-color: red;
+    background-color: $color-principal;
 
     &-element {
       text-align: center;
@@ -135,14 +136,18 @@
 
       & > a {
         text-decoration: none;
-        color: $color-text;
+        color: $color-text-alternative;
         cursor: pointer;
       }
 
       & > a > label {
         text-decoration: none;
-        color: $color-text;
+        color: $color-text-alternative;
         cursor: pointer;
+      }
+
+      :hover{
+        background-color: $color-principal-light;
       }
     }
   }

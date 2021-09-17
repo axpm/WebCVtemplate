@@ -2,15 +2,16 @@
 
 /* Colours */
 $color-principal: #7de7f5;
-$color-principal-light: #531313;
-$color-principal-dark: #ffffff;
-$color-secondary: #ffffff;
-$color-secondary-light: #29cfcf;
-$color-secondary-dark: #0b5d5d;
+$color-principal-light: #b3eef6;
+$color-principal-dark: #29cfcf;
+$color-secondary: #ce3a3a;
+$color-secondary-light: #f17979;
+$color-secondary-dark: #a13434;
 $color-black: #000;
 $color-white: #ffffff;
 $color-text: #ffffff;
 $color-text-alternative: #111;
+$color-text-gray: #777;
 
 $filter-color-svg: invert(23%) sepia(70%) saturate(901%) hue-rotate(139deg) brightness(97%) contrast(91%); // sacarlo de aquí --> https://codepen.io/sosuke/pen/Pjoqqp
 
@@ -91,7 +92,7 @@ body{
     border: none;
     padding: 0.5rem;
 
-    color: white;
+    color: $color-text-alternative;
     transition: all .2s;
 
     &-primary{
