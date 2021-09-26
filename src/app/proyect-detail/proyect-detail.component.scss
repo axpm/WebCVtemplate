@@ -2,13 +2,10 @@
 
 .proyect-detail {
     position: fixed;
-    // pointer-events: none;
-    // display: none;
     top: 0;
     left: 0;
     right: 0;
     bottom: 0;
-    // margin: 1rem;
     z-index: 100;
     width: 100vw;
     height: 100vh;
@@ -30,7 +27,6 @@
         padding-bottom: -10rem;
  
         width: 80vw;
-        // height: 95vh;
         min-height: 95vh;
         max-height: 100%;
         height: auto;
@@ -41,31 +37,35 @@
         
         overflow-y: scroll !important;
 
+
         &__button{
             position: fixed;
-            // float: inherit;
-            // float: right;
-            // overflow: auto;
-            // margin-right: auto;
-            // right: 0;
-            // margin-left: 80%;
         }
 
         &__container{
             display: flex;
             flex-direction: column;
             align-items: center;
-            // justify-content: center;
             padding-top: 10rem;
             padding-bottom: 10rem;
 
+            @include respond(phone){
+                min-width: 0;
+                width: 100%;
+
+                margin-right: auto;
+                margin-left: auto;
+            }
+
             &-title{
                 color: $color-text-alternative;
+                align-items: center;
             }
             
             &-text{
                 margin-top: 3rem;
                 margin-bottom: 10rem;
+                align-items: center;
                 
                 width: 80%;
                 height: auto;
