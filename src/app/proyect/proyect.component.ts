@@ -1,4 +1,4 @@
-import { Component, OnInit, Input } from '@angular/core';
+import { Component, OnInit, Input, Output, EventEmitter } from '@angular/core';
 
 @Component({
   selector: 'app-proyect',
@@ -12,10 +12,17 @@ export class ProyectComponent implements OnInit {
   @Input() img?: String;
   @Input() img_alt?: String;
   @Input() btn?: String;
+  @Input() id?: String;
+
+  // @Output() idOut = new EventEmitter<string>();
+
+  // sendId(idProyect: string) {
+  //   this.idOut.emit(idProyect);
+  // }
 
   constructor() { }
 
-  ngOnInit(): void {
+  ngOnInit(): void {    
   }
 
 }

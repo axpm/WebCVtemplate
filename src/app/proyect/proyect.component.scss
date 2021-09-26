@@ -16,6 +16,8 @@
     cursor: pointer;
     transition: .2s;
 
+    max-width: 60rem;
+
     &:hover {
       transform: translateY(-.5rem);
       box-shadow: 0 4rem 8rem rgba(255, 255, 255, .2);

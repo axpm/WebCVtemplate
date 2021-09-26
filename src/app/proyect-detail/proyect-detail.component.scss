@@ -1,0 +1,85 @@
+@import "src/styles";
+
+.proyect-detail {
+    position: fixed;
+    // pointer-events: none;
+    // display: none;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    // margin: 1rem;
+    z-index: 100;
+    width: 100vw;
+    height: 100vh;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background: rgba(1,1,1,0.75);
+    
+    &-content{
+        background-color: $color-secondary-light;
+        position: relative;
+        margin-top: 3rem;
+        margin-bottom: -10rem;
+        margin-right: auto;
+        margin-left: auto;
+
+        padding-bottom: -10rem;
+ 
+        width: 80vw;
+        // height: 95vh;
+        min-height: 95vh;
+        max-height: 100%;
+        height: auto;
+        
+        border-radius: 1rem;
+        
+        display: flex;
+        
+        overflow-y: scroll !important;
+
+        &__button{
+            position: fixed;
+            // float: inherit;
+            // float: right;
+            // overflow: auto;
+            // margin-right: auto;
+            // right: 0;
+            // margin-left: 80%;
+        }
+
+        &__container{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            // justify-content: center;
+            padding-top: 10rem;
+            padding-bottom: 10rem;
+
+            &-title{
+                color: $color-text-alternative;
+            }
+            
+            &-text{
+                margin-top: 3rem;
+                margin-bottom: 10rem;
+                
+                width: 80%;
+                height: auto;
+    
+                color: $color-text-alternative;
+            }
+
+            &-img{
+                overflow: inherit;
+                max-height: 50rem;
+                width: auto;
+            }
+        }
+
+
+    }
+}

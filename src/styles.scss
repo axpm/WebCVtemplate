@@ -59,14 +59,14 @@ body{
     // margin: 2.5rem;
     // margin-bottom: 0;
 
-		padding: 3rem;
-		padding-bottom: 0;
+    padding: 3rem;
+    padding-bottom: 0;
 
-		width: 100%;
-
-		@include respond(tab-port) {
-			padding: 0;
-			// margin: 0;
+    width: 100%;
+    
+    @include respond(tab-port) {
+        padding: 0;
+        // margin: 0;
     }
 
     /* font-size: 16px; */
@@ -75,6 +75,11 @@ body{
 ::selection {
     background-color: $color-principal;
     color: $color-white;
+}
+.avoidScroll{
+    overflow-x: hidden;
+    // overflow-y: scroll !important;
+    overflow-y: hidden !important;
 }
 
 .btn{

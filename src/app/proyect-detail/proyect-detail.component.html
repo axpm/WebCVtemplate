@@ -1,0 +1,31 @@
+<!-- <div [style.display]="isVisible ? 'block' : 'none'" class="proyect-detail">
+    <div class="proyect-detail-content">
+        <app-button (click)="closePopUp($event)" class="proyect-detail-content__button" [text]="btn"></app-button>
+       
+        <div class="proyect-detail-content__container">
+            <img src="{{img}}" alt="{{img_alt}}" class="proyect-detail-content__container-img">
+            <div class="proyect-detail-content__container-text p-font">
+                {{text_content}}
+            </div>
+        </div>
+
+    </div>
+</div> -->
+
+<div [style.display]="isVisible ? 'block' : 'none'" class="proyect-detail">
+    <div class="proyect-detail-content">
+        <app-button (click)="closePopUp($event)" class="proyect-detail-content__button" [type]="'close'" [text]="btn"></app-button>
+
+        <div class="proyect-detail-content__container">
+            <img src="{{img}}" alt="{{img_alt}}" class="proyect-detail-content__container-img">
+            <div class="proyect-detail-content__container-title h1-font">
+                {{text_title}}
+            </div>
+            <div class="proyect-detail-content__container-text p-font">
+                {{text_content}}
+            </div>
+            <div> " "</div>
+        </div>
+
+    </div>
+</div>

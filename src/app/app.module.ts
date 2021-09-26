@@ -13,6 +13,7 @@ import { LanguageSelectorComponent } from './language-selector/language-selector
 import { MenuComponent } from './menu/menu.component';
 import { FooterComponent } from './footer/footer.component';
 import { ButtonComponent } from './button/button.component';
+import { ProyectDetailComponent } from './proyect-detail/proyect-detail.component';
 
 @NgModule({
   declarations: [
@@ -26,7 +27,8 @@ import { ButtonComponent } from './button/button.component';
     LanguageSelectorComponent,
     MenuComponent,
     FooterComponent,
-    ButtonComponent
+    ButtonComponent,
+    ProyectDetailComponent
   ],
   imports: [
     BrowserModule,

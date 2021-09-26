@@ -1,3 +1,6 @@
 <div class="proyect-section" id="proyects">
-  <app-proyect *ngFor="let proyect of text.proyects" [title]="proyect.title" [content]="proyect.content" [img]="proyect.img_path" [img_alt]="proyect.img_alt" [btn]="proyect.btn"></app-proyect>
+  <!-- <app-proyect *ngFor="let proyect of text.proyects; let i = index" [title]="proyect.title" [content]="proyect.content" [img]="proyect.img_path" [img_alt]="proyect.img_alt" [btn]="proyect.btn" [id]="proyect.id" (idOut)="sendId($event)"></app-proyect> -->
+  <app-proyect *ngFor="let proyect of text.proyects; let i = index" [title]="proyect.title" [content]="proyect.content"
+    [img]="proyect.img_path" [img_alt]="proyect.img_alt" [btn]="proyect.btn" [id]="proyect.identifier">
+  </app-proyect>
 </div>

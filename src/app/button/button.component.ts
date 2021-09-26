@@ -14,8 +14,9 @@ export class ButtonComponent implements OnInit {
   @Input() img? : String;
   @Input() color? : String;
 
-
   @Input() move = false;
+
+  // @Input() id? : String;
 
   constructor() { }
 
