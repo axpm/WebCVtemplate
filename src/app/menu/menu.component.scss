@@ -32,7 +32,7 @@
   z-index: 1;
 
   top: 3rem;
-  
+
 
   &-checkbox {
     display: none;
@@ -134,13 +134,7 @@
 
       margin: 3rem;
 
-      & > a {
-        text-decoration: none;
-        color: $color-text-alternative;
-        cursor: pointer;
-      }
-
-      & > a > label {
+      & > label {
         text-decoration: none;
         color: $color-text-alternative;
         cursor: pointer;
