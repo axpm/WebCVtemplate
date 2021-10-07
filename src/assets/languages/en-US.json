@@ -1,11 +1,10 @@
 {
    "menu": {
-     "frontpage": "Página Principal",
-     "experience": "Experiencia",
+     "frontpage": "Main Page",
+     "experience": "Experience",
      "studies": "Studies",
-     "languages_tools": "Idiomas y Herramientas",
-     "proyects": "Proyectos",
-     "contact": "Contacto"
+     "languages_tools": "Languages and Tools",
+     "proyects": "Projects"
    },
    "frontpage": {
      "profile_alt": "profile",
@@ -27,7 +26,7 @@
    },
 
    "experience_section": {
-     "title_experience": "Experiencia",
+     "title_experience": "Experience",
      "experiences": [
        {
          "title": "Find your way",
@@ -58,7 +57,7 @@
          "date": "Enero 2020 - Enero 2021"
        }
      ],
-     "title_studies": "Estudios",
+     "title_studies": "Studies",
      "studies": [
        {
          "title": "Find your way",
@@ -91,19 +90,19 @@
      "title_tools": "Tools",
      "tools": [
        {
-         "name": "Herramienta1",
+         "name": "Tool1",
          "stars": 4
        },
        {
-         "name": "Herramienta2",
+         "name": "Tool2",
          "stars": 1
        },
        {
-         "name": "Herramienta3",
+         "name": "Tool3",
          "stars": 5
        },
        {
-         "name": "Herramienta4",
+         "name": "Tool4",
          "stars": 2
        }
      ]
